@@ -1,0 +1,321 @@
+<!doctype html>
+
+<html lang="en">
+
+
+<!-- Mirrored from laravel.com/docs/master/filesystem by HTTrack Website Copier/3.x [XR&CO'2013], Mon, 02 Feb 2015 04:45:53 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+    <title>Laravel - The PHP framework for web artisans.</title>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=9,chrome=1">
+    <meta name="author" content="Taylor Otwell">
+    <meta name="description" content="Laravel - The PHP framework for web artisans.">
+    <meta name="keywords" content="laravel, php, framework, web, artisans, taylor otwell">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="shortcut icon" href="../../favicon5e1f.png?v=2">
+
+    <link href="../../assets/css/styles.css" rel="stylesheet">
+
+    <!-- fonts -->
+    <script src="../../../use.edgefonts.net/source-sans-pro_n3%2ci3%2cn4%2ci4%2cn6%2ci6%2cn7%2ci7.js"></script>
+    <script src="../../../use.edgefonts.net/source-code-pro.js"></script>
+
+    <!--[if IE]><link href="assets/css/ie.css" rel="stylesheet" type="text/css"><![endif]-->
+
+    <!-- HTML5 elements in less than IE9, yes please! -->
+    <!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+
+    <!-- If less than IE8 add some JS for the webfont icons -->
+    <!--[if lt IE 8]><script src="assets/js/ie_font.js"></script><![endif]-->
+
+        <script>
+        var _gaq=[['_setAccount','UA-23865777-1'],['_trackPageview']];
+        (function(d,t){
+            var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+            g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+            s.parentNode.insertBefore(g,s)
+        }(document,'script'));
+    </script>
+    
+</head>
+
+<body id="index" class="page">
+
+    <!--[if lt IE 7]>
+        <p>Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site.</p>
+    <![endif]-->
+
+    <div id="wrapper">
+
+    <header id="header" role="header">
+    <div class="boxed">
+        <div id="tagline">
+            <h1>Documentation.</h1>
+        </div>
+
+        <div id="version">
+            <ul class="nolist">
+                                    <li class="current">
+                        <a href="../master.html" title="Dev">Dev</a>
+                    </li>
+                                    <li class="">
+                        <a href="../4.html" title="4.2">4.2</a>
+                    </li>
+                                    <li class="">
+                        <a href="../4-2.html" title="4.1">4.1</a>
+                    </li>
+                                    <li class="">
+                        <a href="../4-3.html" title="4.0">4.0</a>
+                    </li>
+                            </ul>
+        </div>
+    </div>
+</header>
+
+<nav id="primary">
+    <div class="boxed">
+        <div id="logo-head">
+            <a href="http://laravel.com/"><img src="../../assets/img/logo-head.png" alt="Laravel"></a>
+        </div>
+        <ul class="primary-nav-ul">
+            <li><a href="#">Welcome</a></li>
+            <li class="current-item"><a href="http://laravel.com/docs" title="Documentation">Documentation</a></li>
+            <li><a href="http://laravel.com/api/4.2" title="Laravel Framework API">API</a></li>
+            <li><a href="http://laracasts.com/" title="Documentation">Laracasts</a></li>
+            <li><a href="https://forge.laravel.com/">Forge</a></li>
+            <li><a href="http://blog.laravel.com/">Blog</a></li>
+            <li class="community">
+              <a href="#" title="Laravel Community Resources">Community</a>
+              <ul>
+                <li><a href="https://github.com/laravel/laravel" title="Github">Github</a></li>
+                <li><a href="http://twitter.com/laravelphp" title="Laravel on Twitter">Twitter</a></li>
+                <li><a href="https://laracasts.com/discuss">Laracasts Forums</a></li>
+                <li><a href="http://laravel.io/forum">Laravel.io Forums</a></li>
+                <li><a href="http://larajobs.com/?partner=5">LaraJobs</a></li>
+              </ul>
+            </li>
+        </ul>
+        <a href="#" class="show-primary-nav">Menu</a>
+    </div>
+</nav>
+
+<div id="content">
+
+    <section id="documentation">
+        <article class="boxed">
+
+            <ul class="version-picker--mobile nolist">
+                                <li class="current">
+                    <a href="../master.html" title="Dev">Dev</a>
+                </li>
+                                <li class="">
+                    <a href="../4.html" title="4.2">4.2</a>
+                </li>
+                                <li class="">
+                    <a href="../4-2.html" title="4.1">4.1</a>
+                </li>
+                                <li class="">
+                    <a href="../4-3.html" title="4.0">4.0</a>
+                </li>
+                            </ul>
+            <a href="#" class="docs-show" data-show-text="Navigate" data-hide-text="Close">Navigate</a>
+
+            <nav id="docs">
+                <ul>
+<li>Prologue
+<ul>
+<li><a href="introduction.html">Introduction</a></li>
+<li><a href="releases.html">Release Notes</a></li>
+<li><a href="upgrade.html">Upgrade Guide</a></li>
+<li><a href="contributions.html">Contribution Guide</a></li>
+</ul></li>
+<li>Setup
+<ul>
+<li><a href="installation.html">Installation</a></li>
+<li><a href="configuration.html">Configuration</a></li>
+<li><a href="homestead.html">Homestead</a></li>
+</ul></li>
+<li>HTTP Basics
+<ul>
+<li><a href="routing.html">Routing</a></li>
+<li><a href="middleware.html">Middleware</a></li>
+<li><a href="controllers.html">Controllers</a></li>
+<li><a href="requests.html">Requests</a></li>
+<li><a href="responses.html">Responses</a></li>
+<li><a href="views.html">Views</a></li>
+</ul></li>
+<li>Architecture Foundations
+<ul>
+<li><a href="providers.html">Service Providers</a></li>
+<li><a href="container.html">Service Container</a></li>
+<li><a href="contracts.html">Contracts</a></li>
+<li><a href="facades.html">Facades</a></li>
+<li><a href="lifecycle.html">Request Lifecycle</a></li>
+<li><a href="structure.html">Application Structure</a></li>
+</ul></li>
+<li>Services
+<ul>
+<li><a href="authentication.html">Authentication</a></li>
+<li><a href="billing.html">Billing</a></li>
+<li><a href="cache.html">Cache</a></li>
+<li><a href="collections.html">Collections</a></li>
+<li><a href="bus.html">Command Bus</a></li>
+<li><a href="extending.html">Core Extension</a></li>
+<li><a href="encryption.html">Encryption</a></li>
+<li><a href="errors.html">Errors &amp; Logging</a></li>
+<li><a href="events.html">Events</a></li>
+<li><a href="filesystem.html">Filesystem / Cloud Storage</a></li>
+<li><a href="hashing.html">Hashing</a></li>
+<li><a href="helpers.html">Helpers</a></li>
+<li><a href="localization.html">Localization</a></li>
+<li><a href="mail.html">Mail</a></li>
+<li><a href="packages.html">Package Development</a></li>
+<li><a href="pagination.html">Pagination</a></li>
+<li><a href="queues.html">Queues</a></li>
+<li><a href="session.html">Session</a></li>
+<li><a href="templates.html">Templates</a></li>
+<li><a href="testing.html">Unit Testing</a></li>
+<li><a href="validation.html">Validation</a></li>
+</ul></li>
+<li>Database
+<ul>
+<li><a href="database.html">Basic Usage</a></li>
+<li><a href="queries.html">Query Builder</a></li>
+<li><a href="eloquent.html">Eloquent ORM</a></li>
+<li><a href="schema.html">Schema Builder</a></li>
+<li><a href="migrations.html">Migrations &amp; Seeding</a></li>
+<li><a href="redis.html">Redis</a></li>
+</ul></li>
+<li>Artisan CLI
+<ul>
+<li><a href="artisan.html">Overview</a></li>
+<li><a href="commands.html">Development</a></li>
+</ul></li>
+</ul>
+            </nav>
+
+            <div id="docs-content">
+                <h1>Filesystem / Cloud Storage</h1>
+<ul>
+<li><a href="#introduction">Introduction</a></li>
+<li><a href="#configuration">Configuration</a></li>
+<li><a href="#basic-usage">Basic Usage</a></li>
+</ul>
+<p><a name="introduction"></a></p>
+<h2>Introduction</h2>
+<p>Laravel provides a wonderful filesystem abstraction thanks to the <a href="https://github.com/thephpleague/flysystem">Flysystem</a> PHP package by Frank de Jonge. The Laravel Flysystem integration provides simple to use drivers for working with local filesystems, Amazon S3, and Rackspace Cloud Storage. Even better, it's amazingly simple to switch between these storage options as the API remains the same for each system!</p>
+<p><a name="configuration"></a></p>
+<h2>Configuration</h2>
+<p>The filesystem configuration file is located at <code>config/filesystems.php</code>. Within this file you may configure all of your "disks". Each disk represents a particular storage driver and storage location. Example configurations for each supported driver is included in the configuration file. So, simply modify the configuration to reflect your storage preferences and credentials!</p>
+<p>Before using the S3 or Rackspace drivers, you will need to install the appropriate package via Composer:</p>
+<ul>
+<li>Amazon S3: <code>league/flysystem-aws-s3-v2 ~1.0</code></li>
+<li>Rackspace: <code>league/flysystem-rackspace ~1.0</code></li>
+</ul>
+<p>Of course, you may configure as many disks as you like, and may even have multiple disks that use the same driver.</p>
+<p>When using the <code>local</code> driver, note that all file operations are relative to the <code>root</code> directory defined in your configuration file. By default, this value is set to the <code>storage/app</code> directory. Therefore, the following method would store a file in <code>storage/app/file.txt</code>:</p>
+<pre><code>Storage::disk('local')-&gt;put('file.txt', 'Contents');</code></pre>
+<p><a name="basic-usage"></a></p>
+<h2>Basic Usage</h2>
+<p>The <code>Storage</code> facade may be used to interact with any of your configured disks. Alternatively, you may type-hint the <code>Illuminate\Contracts\Filesystem\Factory</code> contract on any class that is resolved via the <a href="container.html">IoC container</a>.</p>
+<h4>Retrieving A Particular Disk</h4>
+<pre><code>$disk = Storage::disk('s3');
+
+$disk = Storage::disk('local');</code></pre>
+<h4>Calling Methods On The Default Disk</h4>
+<pre><code>$exists = Storage::disk('s3')-&gt;exists('file.jpg');</code></pre>
+<h4>Determining If A File Exists</h4>
+<pre><code>if (Storage::exists('file.jpg'))
+{
+    //
+}</code></pre>
+<h4>Retrieving A File's Contents</h4>
+<pre><code>$contents = Storage::get('file.jpg');</code></pre>
+<h4>Setting A File's Contents</h4>
+<pre><code>Storage::put('file.jpg', $contents);</code></pre>
+<h4>Prepend To A File</h4>
+<pre><code>Storage::prepend('file.log', 'Prepended Text');</code></pre>
+<h4>Append To A File</h4>
+<pre><code>Storage::append('file.log', 'Appended Text');</code></pre>
+<h4>Delete A File</h4>
+<pre><code>Storage::delete('file.jpg');
+
+Storage::delete(['file1.jpg', 'file2.jpg']);</code></pre>
+<h4>Copy A File To A New Location</h4>
+<pre><code>Storage::copy('old/file1.jpg', 'new/file1.jpg');</code></pre>
+<h4>Move A File To A New Location</h4>
+<pre><code>Storage::move('old/file1.jpg', 'new/file1.jpg');</code></pre>
+<h4>Get File Size</h4>
+<pre><code>$size = Storage::size('file1.jpg');</code></pre>
+<h4>Get The Last Modification Time (UNIX)</h4>
+<pre><code>$time = Storage::lastModified('file1.jpg');</code></pre>
+<h4>Get All Files Within A Directory</h4>
+<pre><code>$files = Storage::files($directory);
+
+// Recursive...
+$files = Storage::allFiles($directory);</code></pre>
+<h4>Get All Directories Within A Directory</h4>
+<pre><code>$directories = Storage::directories($directory);
+
+// Recursive...
+$directories = Storage::allDirectories($directory);</code></pre>
+<h4>Create A Directory</h4>
+<pre><code>Storage::makeDirectory($directory);</code></pre>
+<h4>Delete A Directory</h4>
+<pre><code>Storage::deleteDirectory($directory);</code></pre>
+            </div>
+
+        </article>
+    </section>
+
+</div>
+
+<footer id="foot" class="textcenter">
+    <div class="boxed">
+
+        <nav id="secondary">
+            <div id="logo-foot">
+                <a href="http://laravel.com/"><img src="../../assets/img/logo-foot.png" alt="Laravel"></a>
+            </div>
+            <ul>
+                <li><a href="#">Welcome</a></li>
+                <li class="current-item"><a href="http://laravel.com/docs" title="Documentation">Documentation</a></li>
+                <li><a href="http://laravel.com/api/4.2" title="Laravel Framework API">API</a></li>
+                <li><a href="http://laracasts.com/" title="Documentation">Laracasts</a></li>
+                <li><a href="https://forge.laravel.com/">Forge</a></li>
+                <li><a href="http://blog.laravel.com/">Blog</a></li>
+            </ul>
+        </nav>
+
+    </div>
+</footer>
+
+<div id="top">
+    <a href="#index" title="Back to the top">
+        <i class="icon-chevron-up"></i>
+    </a>
+</div>
+
+
+    </div>
+
+    <section id="copyright" class="textcenter">
+        <div class="boxed">
+            <div class="animated slideInLeft">
+                Laravel is a trademark of Taylor Otwell.<br class="br-mobile--footer">
+                Copyright &copy; <a href="http://twitter.com/taylorotwell" title="Taylor Otwell" target="_blank">Taylor Otwell</a>.<br class="br-mobile--footer">
+                Website built with &hearts; <a href="http://ikreativ.com/" title="iKreativ" target="_blank">iKreativ</a>;<br class="br-mobile--footer">
+                responsive by <a href="http://tighten.co/" title="Tighten Co." target="_blank">Tighten Co.</a>
+            </div>
+        </div>
+    </section>
+
+    <script src="../../assets/js/bundle.js"></script>
+
+</body>
+
+<!-- Mirrored from laravel.com/docs/master/filesystem by HTTrack Website Copier/3.x [XR&CO'2013], Mon, 02 Feb 2015 04:45:53 GMT -->
+</html>

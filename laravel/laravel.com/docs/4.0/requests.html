@@ -1,0 +1,355 @@
+<!doctype html>
+
+<html lang="en">
+
+
+<!-- Mirrored from laravel.com/docs/4.0/requests by HTTrack Website Copier/3.x [XR&CO'2013], Mon, 02 Feb 2015 04:46:45 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+    <title>Laravel - The PHP framework for web artisans.</title>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=9,chrome=1">
+    <meta name="author" content="Taylor Otwell">
+    <meta name="description" content="Laravel - The PHP framework for web artisans.">
+    <meta name="keywords" content="laravel, php, framework, web, artisans, taylor otwell">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="shortcut icon" href="../../favicon5e1f.png?v=2">
+
+    <link href="../../assets/css/styles.css" rel="stylesheet">
+
+    <!-- fonts -->
+    <script src="../../../use.edgefonts.net/source-sans-pro_n3%2ci3%2cn4%2ci4%2cn6%2ci6%2cn7%2ci7.js"></script>
+    <script src="../../../use.edgefonts.net/source-code-pro.js"></script>
+
+    <!--[if IE]><link href="assets/css/ie.css" rel="stylesheet" type="text/css"><![endif]-->
+
+    <!-- HTML5 elements in less than IE9, yes please! -->
+    <!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+
+    <!-- If less than IE8 add some JS for the webfont icons -->
+    <!--[if lt IE 8]><script src="assets/js/ie_font.js"></script><![endif]-->
+
+        <script>
+        var _gaq=[['_setAccount','UA-23865777-1'],['_trackPageview']];
+        (function(d,t){
+            var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+            g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+            s.parentNode.insertBefore(g,s)
+        }(document,'script'));
+    </script>
+    
+</head>
+
+<body id="index" class="page">
+
+    <!--[if lt IE 7]>
+        <p>Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site.</p>
+    <![endif]-->
+
+    <div id="wrapper">
+
+    <header id="header" role="header">
+    <div class="boxed">
+        <div id="tagline">
+            <h1>Documentation.</h1>
+        </div>
+
+        <div id="version">
+            <ul class="nolist">
+                                    <li class="">
+                        <a href="../master.html" title="Dev">Dev</a>
+                    </li>
+                                    <li class="">
+                        <a href="../4.html" title="4.2">4.2</a>
+                    </li>
+                                    <li class="">
+                        <a href="../4-2.html" title="4.1">4.1</a>
+                    </li>
+                                    <li class="current">
+                        <a href="../4-3.html" title="4.0">4.0</a>
+                    </li>
+                            </ul>
+        </div>
+    </div>
+</header>
+
+<nav id="primary">
+    <div class="boxed">
+        <div id="logo-head">
+            <a href="http://laravel.com/"><img src="../../assets/img/logo-head.png" alt="Laravel"></a>
+        </div>
+        <ul class="primary-nav-ul">
+            <li><a href="#">Welcome</a></li>
+            <li class="current-item"><a href="http://laravel.com/docs" title="Documentation">Documentation</a></li>
+            <li><a href="http://laravel.com/api/4.2" title="Laravel Framework API">API</a></li>
+            <li><a href="http://laracasts.com/" title="Documentation">Laracasts</a></li>
+            <li><a href="https://forge.laravel.com/">Forge</a></li>
+            <li><a href="http://blog.laravel.com/">Blog</a></li>
+            <li class="community">
+              <a href="#" title="Laravel Community Resources">Community</a>
+              <ul>
+                <li><a href="https://github.com/laravel/laravel" title="Github">Github</a></li>
+                <li><a href="http://twitter.com/laravelphp" title="Laravel on Twitter">Twitter</a></li>
+                <li><a href="https://laracasts.com/discuss">Laracasts Forums</a></li>
+                <li><a href="http://laravel.io/forum">Laravel.io Forums</a></li>
+                <li><a href="http://larajobs.com/?partner=5">LaraJobs</a></li>
+              </ul>
+            </li>
+        </ul>
+        <a href="#" class="show-primary-nav">Menu</a>
+    </div>
+</nav>
+
+<div id="content">
+
+    <section id="documentation">
+        <article class="boxed">
+
+            <ul class="version-picker--mobile nolist">
+                                <li class="">
+                    <a href="../master.html" title="Dev">Dev</a>
+                </li>
+                                <li class="">
+                    <a href="../4.html" title="4.2">4.2</a>
+                </li>
+                                <li class="">
+                    <a href="../4-2.html" title="4.1">4.1</a>
+                </li>
+                                <li class="current">
+                    <a href="../4-3.html" title="4.0">4.0</a>
+                </li>
+                            </ul>
+            <a href="#" class="docs-show" data-show-text="Navigate" data-hide-text="Close">Navigate</a>
+
+            <nav id="docs">
+                <ul>
+<li>Preface
+<ul>
+<li><a href="introduction.html">Introduction</a></li>
+<li><a href="quick.html">Quickstart</a></li>
+<li><a href="contributing.html">Contributing</a></li>
+</ul></li>
+<li>Getting Started
+<ul>
+<li><a href="installation.html">Installation</a></li>
+<li><a href="configuration.html">Configuration</a></li>
+<li><a href="lifecycle.html">Request Lifecycle</a></li>
+<li><a href="routing.html">Routing</a></li>
+<li><a href="requests.html">Requests &amp; Input</a></li>
+<li><a href="responses.html">Views &amp; Responses</a></li>
+<li><a href="controllers.html">Controllers</a></li>
+<li><a href="errors.html">Errors &amp; Logging</a></li>
+</ul></li>
+<li>Learning More
+<ul>
+<li><a href="cache.html">Cache</a></li>
+<li><a href="extending.html">Core Extension</a></li>
+<li><a href="events.html">Events</a></li>
+<li><a href="facades.html">Facades</a></li>
+<li><a href="html.html">Forms &amp; HTML</a></li>
+<li><a href="helpers.html">Helpers</a></li>
+<li><a href="ioc.html">IoC Container</a></li>
+<li><a href="localization.html">Localization</a></li>
+<li><a href="mail.html">Mail</a></li>
+<li><a href="packages.html">Package Development</a></li>
+<li><a href="pagination.html">Pagination</a></li>
+<li><a href="queues.html">Queues</a></li>
+<li><a href="security.html">Security</a></li>
+<li><a href="session.html">Session</a></li>
+<li><a href="templates.html">Templates</a></li>
+<li><a href="testing.html">Unit Testing</a></li>
+<li><a href="validation.html">Validation</a></li>
+</ul></li>
+<li>Database
+<ul>
+<li><a href="database.html">Basic Usage</a></li>
+<li><a href="queries.html">Query Builder</a></li>
+<li><a href="eloquent.html">Eloquent ORM</a></li>
+<li><a href="schema.html">Schema Builder</a></li>
+<li><a href="migrations.html">Migrations &amp; Seeding</a></li>
+<li><a href="redis.html">Redis</a></li>
+</ul></li>
+<li>Artisan CLI
+<ul>
+<li><a href="artisan.html">Overview</a></li>
+<li><a href="commands.html">Development</a></li>
+</ul></li>
+</ul>
+            </nav>
+
+            <div id="docs-content">
+                <h1>Requests &amp; Input</h1>
+<ul>
+<li><a href="#basic-input">Basic Input</a></li>
+<li><a href="#cookies">Cookies</a></li>
+<li><a href="#old-input">Old Input</a></li>
+<li><a href="#files">Files</a></li>
+<li><a href="#request-information">Request Information</a></li>
+</ul>
+<p><a name="basic-input"></a></p>
+<h2>Basic Input</h2>
+<p>You may access all user input with a few simple methods. You do not need to worry about the HTTP verb used for the request, as input is accessed in the same way for all verbs.</p>
+<p><strong>Retrieving An Input Value</strong></p>
+<pre><code>$name = Input::get('name');</code></pre>
+<p><strong>Retrieving A Default Value If The Input Value Is Absent</strong></p>
+<pre><code>$name = Input::get('name', 'Sally');</code></pre>
+<p><strong>Determining If An Input Value Is Present</strong></p>
+<pre><code>if (Input::has('name'))
+{
+    //
+}</code></pre>
+<p><strong>Getting All Input For The Request</strong></p>
+<pre><code>$input = Input::all();</code></pre>
+<p><strong>Getting Only Some Of The Request Input</strong></p>
+<pre><code>$input = Input::only('username', 'password');
+
+$input = Input::except('credit_card');</code></pre>
+<p>When working on forms with "array" inputs, you may use dot notation to access the arrays:</p>
+<pre><code>$input = Input::get('products.0.name');</code></pre>
+<blockquote>
+<p><strong>Note:</strong> Some JavaScript libraries such as Backbone may send input to the application as JSON. You may access this data via <code>Input::get</code> like normal.</p>
+</blockquote>
+<p><a name="cookies"></a></p>
+<h2>Cookies</h2>
+<p>All cookies created by the Laravel framework are encrypted and signed with an authentication code, meaning they will be considered invalid if they have been changed by the client.</p>
+<p><strong>Retrieving A Cookie Value</strong></p>
+<pre><code>$value = Cookie::get('name');</code></pre>
+<p><strong>Attaching A New Cookie To A Response</strong></p>
+<pre><code>$response = Response::make('Hello World');
+
+$response-&gt;withCookie(Cookie::make('name', 'value', $minutes));</code></pre>
+<p><strong>Queueing A Cookie For The Next Response</strong></p>
+<p>If you would like to set a cookie before a response has been created, use the <code>Cookie::queue()</code> method. The cookie will automatically be attached to the final response from your application.</p>
+<pre><code>Cookie::queue($name, $value, $minutes);</code></pre>
+<p><strong>Creating A Cookie That Lasts Forever</strong></p>
+<pre><code>$cookie = Cookie::forever('name', 'value');</code></pre>
+<p><a name="old-input"></a></p>
+<h2>Old Input</h2>
+<p>You may need to keep input from one request until the next request. For example, you may need to re-populate a form after checking it for validation errors.</p>
+<p><strong>Flashing Input To The Session</strong></p>
+<pre><code>Input::flash();</code></pre>
+<p><strong>Flashing Only Some Input To The Session</strong></p>
+<pre><code>Input::flashOnly('username', 'email');
+
+Input::flashExcept('password');</code></pre>
+<p>Since you often will want to flash input in association with a redirect to the previous page, you may easily chain input flashing onto a redirect.</p>
+<pre><code>return Redirect::to('form')-&gt;withInput();
+
+return Redirect::to('form')-&gt;withInput(Input::except('password'));</code></pre>
+<blockquote>
+<p><strong>Note:</strong> You may flash other data across requests using the <a href="../4.2/session.html">Session</a> class.</p>
+</blockquote>
+<p><strong>Retrieving Old Data</strong></p>
+<pre><code>Input::old('username');</code></pre>
+<p><a name="files"></a></p>
+<h2>Files</h2>
+<p><strong>Retrieving An Uploaded File</strong></p>
+<pre><code>$file = Input::file('photo');</code></pre>
+<p><strong>Determining If A File Was Uploaded</strong></p>
+<pre><code>if (Input::hasFile('photo'))
+{
+    //
+}</code></pre>
+<p>The object returned by the <code>file</code> method is an instance of the <code>Symfony\Component\HttpFoundation\File\UploadedFile</code> class, which extends the PHP <code>SplFileInfo</code> class and provides a variety of methods for interacting with the file.</p>
+<p><strong>Moving An Uploaded File</strong></p>
+<pre><code>Input::file('photo')-&gt;move($destinationPath);
+
+Input::file('photo')-&gt;move($destinationPath, $fileName);</code></pre>
+<p><strong>Retrieving The Path To An Uploaded File</strong></p>
+<pre><code>$path = Input::file('photo')-&gt;getRealPath();</code></pre>
+<p><strong>Retrieving The Original Name Of An Uploaded File</strong></p>
+<pre><code>$name = Input::file('photo')-&gt;getClientOriginalName();</code></pre>
+<p><strong>Retrieving The Extension Of An Uploaded File</strong></p>
+<pre><code>$extension = Input::file('photo')-&gt;getClientOriginalExtension();</code></pre>
+<p><strong>Retrieving The Size Of An Uploaded File</strong></p>
+<pre><code>$size = Input::file('photo')-&gt;getSize();</code></pre>
+<p><strong>Retrieving The MIME Type Of An Uploaded File</strong></p>
+<pre><code>$mime = Input::file('photo')-&gt;getMimeType();</code></pre>
+<p><a name="request-information"></a></p>
+<h2>Request Information</h2>
+<p>The <code>Request</code> class provides many methods for examining the HTTP request for your application and extends the <code>Symfony\Component\HttpFoundation\Request</code> class. Here are some of the highlights.</p>
+<p><strong>Retrieving The Request URI</strong></p>
+<pre><code>$uri = Request::path();</code></pre>
+<p><strong>Determining If The Request Path Matches A Pattern</strong></p>
+<pre><code>if (Request::is('admin/*'))
+{
+    //
+}</code></pre>
+<p><strong>Get The Request URL</strong></p>
+<pre><code>$url = Request::url();</code></pre>
+<p><strong>Retrieve A Request URI Segment</strong></p>
+<pre><code>$segment = Request::segment(1);</code></pre>
+<p><strong>Retrieving A Request Header</strong></p>
+<pre><code>$value = Request::header('Content-Type');</code></pre>
+<p><strong>Retrieving Values From $_SERVER</strong></p>
+<pre><code>$value = Request::server('PATH_INFO');</code></pre>
+<p><strong>Determining If The Request Is Over HTTPS</strong></p>
+<pre><code>if (Request::secure())
+{
+    //
+}</code></pre>
+<p><strong>Determine If The Request Is Using AJAX</strong></p>
+<pre><code>if (Request::ajax())
+{
+    //
+}</code></pre>
+<p><strong>Detect any type of JSON request</strong></p>
+<pre><code>if (Request::ajax() or Request::isJson() or Request::wantsJson())
+{
+    //
+}</code></pre>
+            </div>
+
+        </article>
+    </section>
+
+</div>
+
+<footer id="foot" class="textcenter">
+    <div class="boxed">
+
+        <nav id="secondary">
+            <div id="logo-foot">
+                <a href="http://laravel.com/"><img src="../../assets/img/logo-foot.png" alt="Laravel"></a>
+            </div>
+            <ul>
+                <li><a href="#">Welcome</a></li>
+                <li class="current-item"><a href="http://laravel.com/docs" title="Documentation">Documentation</a></li>
+                <li><a href="http://laravel.com/api/4.2" title="Laravel Framework API">API</a></li>
+                <li><a href="http://laracasts.com/" title="Documentation">Laracasts</a></li>
+                <li><a href="https://forge.laravel.com/">Forge</a></li>
+                <li><a href="http://blog.laravel.com/">Blog</a></li>
+            </ul>
+        </nav>
+
+    </div>
+</footer>
+
+<div id="top">
+    <a href="#index" title="Back to the top">
+        <i class="icon-chevron-up"></i>
+    </a>
+</div>
+
+
+    </div>
+
+    <section id="copyright" class="textcenter">
+        <div class="boxed">
+            <div class="animated slideInLeft">
+                Laravel is a trademark of Taylor Otwell.<br class="br-mobile--footer">
+                Copyright &copy; <a href="http://twitter.com/taylorotwell" title="Taylor Otwell" target="_blank">Taylor Otwell</a>.<br class="br-mobile--footer">
+                Website built with &hearts; <a href="http://ikreativ.com/" title="iKreativ" target="_blank">iKreativ</a>;<br class="br-mobile--footer">
+                responsive by <a href="http://tighten.co/" title="Tighten Co." target="_blank">Tighten Co.</a>
+            </div>
+        </div>
+    </section>
+
+    <script src="../../assets/js/bundle.js"></script>
+
+</body>
+
+<!-- Mirrored from laravel.com/docs/4.0/requests by HTTrack Website Copier/3.x [XR&CO'2013], Mon, 02 Feb 2015 04:46:46 GMT -->
+</html>

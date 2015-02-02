@@ -1,0 +1,16 @@
+HTTrack3.48-1+libhtsjava.so.2 launched on Mon, 02 Feb 2015 10:13:20 at http://http://laravel.com/docs/4.2 +*.png +*.gif +*.jpg +*.css +*.js -ad.doubleclick.net/*
+(webhttrack -q -%i -w http://http://laravel.com/docs/4.2 -O "/home/neeraj/Desktop/project/docs/laravel" -n -%P -N0 -s2 -p7 -D -a -K0 -c4 -%k -A25000 -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2013], %s -->" +*.png +*.gif +*.jpg +*.css +*.js -ad.doubleclick.net/* -%s -%u )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+10:16:56	Warning: 	Retry after error 500 (Internal Server Error) at link laravel.com/docs/master/templating (from laravel.com/docs/master/routing)
+10:16:57	Warning: 	Retry after error 500 (Internal Server Error) at link laravel.com/docs/master/templating (from laravel.com/docs/master/routing)
+10:16:57	Error: 	"Internal Server Error" (500) after 2 retries at link laravel.com/docs/master/templating (from laravel.com/docs/master/routing)
+10:18:17	Warning: 	HTML file (11828 bytes) retransferred due to lack of cache: http://laravel.com/docs/4.2/introduction
+10:18:25	Warning: 	HTML file (12256 bytes) retransferred due to lack of cache: laravel.com/docs/master/introduction
+
+HTTrack Website Copier/3.48-1 mirror complete in 5 minutes 9 seconds : 242 links scanned, 288 files written (6014795 bytes overall) [3868582 bytes received at 12519 bytes/sec], 3147206 bytes transferred using HTTP compression in 169 files, ratio 32%, 7.9 requests per connection
+(1 errors, 4 warnings, 0 messages)
